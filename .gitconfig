@@ -1,0 +1,31 @@
+[push]
+	default = simple
+[merge]
+	tool = kdiff3
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
+	pager = less -F -X
+[alias]
+	publish = !git pull --rebase && git push
+	lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+	lg = !"git lg1"
+[color "diff"]
+	whitespace = red reverse
+[pager]
+  color = true
+
+
+[url "git://anongit.kde.org/"]
+  insteadOf = kde:
+[url "git@git.kde.org:"]
+  pushInsteadOf = kde:
+
+[user]
+	email = felix_mauch@web.de
+	name = Felix Mauch
+[include]
+    path = ~/.gitconfig.local
+[color "status"]
+	branch = magenta
