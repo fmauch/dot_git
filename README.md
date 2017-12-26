@@ -10,7 +10,7 @@ on how to use it. In short
 ```
 mkdir ~/dotfiles
 cd ~/dotfiles
-git clone https://github.com/fmauch/dot_git.git git
+git clone https://github.com/fmauch/dot_git.git
 stow dot_git
 ```
 
