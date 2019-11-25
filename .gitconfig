@@ -22,9 +22,6 @@
 [url "git@git.kde.org:"]
   pushInsteadOf = kde:
 
-[user]
-	email = felix_mauch@web.de
-	name = Felix Mauch
 [include]
     path = ~/.gitconfig.local
 [color "status"]
