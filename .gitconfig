@@ -34,3 +34,7 @@
 
 [hooks]
   enabled-plugins = whitespace
+[diff]
+	submodule = log
+[status]
+	submodulesummary = true
