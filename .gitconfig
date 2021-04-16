@@ -27,3 +27,5 @@
     path = ~/.gitconfig.local
 [color "status"]
 	branch = magenta
+[pull]
+	rebase = true
