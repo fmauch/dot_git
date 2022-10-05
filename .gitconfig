@@ -1,7 +1,7 @@
 [push]
 	default = simple
 [merge]
-	tool = kdiff3
+	tool = vimdiff
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim
