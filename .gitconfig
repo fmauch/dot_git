@@ -1,5 +1,13 @@
+[commit]
+        verbose = true
+[fetch]
+        prune = true
+        pruneTags = true
+[pull]
+	rebase = true
 [push]
 	default = simple
+        autoSetupRemote = true
 [merge]
 	tool = vimdiff
 [core]
@@ -23,12 +31,8 @@
 [url "git@git.kde.org:"]
   pushInsteadOf = kde:
 
-[include]
-    path = ~/.gitconfig.local
 [color "status"]
 	branch = magenta
-[pull]
-	rebase = true
 ;[init]
 	;templatedir = ~/.git_template/template
 
@@ -38,3 +42,6 @@
 	submodule = log
 [status]
 	submodulesummary = true
+
+[include]
+    path = ~/.gitconfig.local
