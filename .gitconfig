@@ -2,7 +2,6 @@
         verbose = true
 [fetch]
         prune = true
-        pruneTags = true
 [pull]
 	rebase = true
 [push]
