@@ -4,3 +4,4 @@ CMakeLists.txt.user
 *~
 *.swp
 *.swo
+__pycache__
