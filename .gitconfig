@@ -20,6 +20,7 @@
 	lg = !"git lg1"
         default-branch = !"git remote show origin | sed -n '/HEAD branch/s/.*: //p'"
 	mwps = "!git push -o merge_request.create -o merge_request.target=$(git default-branch) -o merge_request.merge_when_pipeline_succeeds"
+  dg = difftool -g -d
 [color "diff"]
 	whitespace = red reverse
 [pager]
@@ -39,6 +40,7 @@
 ;[hooks]
   ;enabled-plugins = whitespace
 [diff]
+        guitool = kdiff3
 	submodule = log
 [status]
 	submodulesummary = true
