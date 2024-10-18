@@ -47,3 +47,5 @@
 
 [include]
     path = ~/.gitconfig.local
+[mergetool]
+	keepBackup = false
