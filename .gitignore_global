@@ -8,3 +8,8 @@ __pycache__
 *.pyc
 *.work
 *.ccache
+.idea
+cmake-build-*
+.cache
+venv
+.venv
