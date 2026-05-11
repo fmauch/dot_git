@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jesseduffield/lazygit/master/schema/config.json
+
+---
+gui:
+  showDivergenceFromBaseBranch: arrowAndNumber
+
+git:
+  autoFetch: true
+  fetchAll: true
+
+os:
+  openLink: "true"
